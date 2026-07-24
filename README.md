@@ -1,217 +1,217 @@
-# World Monitor
+<div align="center">
 
-[简体中文](README.zh-CN.md)
+# 🌍 Advance Project
 
-**Real-time global intelligence dashboard** — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
+### Real-time Global Intelligence Dashboard
 
-[![GitHub stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/stargazers)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/re63kWKxaz)
+AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
+
+[![GitHub stars](https://img.shields.io/github/stars/bhargavgrover/advance-project?style=social)](https://github.com/bhargavgrover/advance-project/stargazers)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Last commit](https://img.shields.io/github/last-commit/koala73/worldmonitor)](https://github.com/koala73/worldmonitor/commits/main)
-[![Latest release](https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)
-[![npm: worldmonitor](https://img.shields.io/npm/v/worldmonitor?logo=npm&label=npm)](https://www.npmjs.com/package/worldmonitor)
-[![smithery badge](https://smithery.ai/badge/worldmonitor/wm-mcp)](https://smithery.ai/servers/worldmonitor/wm-mcp)
-[![skills.sh](https://skills.sh/b/koala73/worldmonitor)](https://skills.sh/koala73/worldmonitor)
-
-<p align="center">
-  <a href="https://www.worldmonitor.app"><img src="https://img.shields.io/badge/Web_App-worldmonitor.app-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web App"></a>&nbsp;
-  <a href="https://tech.worldmonitor.app"><img src="https://img.shields.io/badge/Tech_Variant-tech.worldmonitor.app-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech Variant"></a>&nbsp;
-  <a href="https://finance.worldmonitor.app"><img src="https://img.shields.io/badge/Finance_Variant-finance.worldmonitor.app-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Finance Variant"></a>&nbsp;
-  <a href="https://commodity.worldmonitor.app"><img src="https://img.shields.io/badge/Commodity_Variant-commodity.worldmonitor.app-b45309?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Commodity Variant"></a>&nbsp;
-  <a href="https://happy.worldmonitor.app"><img src="https://img.shields.io/badge/Happy_Variant-happy.worldmonitor.app-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Happy Variant"></a>&nbsp;
-  <a href="https://energy.worldmonitor.app"><img src="https://img.shields.io/badge/Energy_Variant-energy.worldmonitor.app-eab308?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Energy Variant"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/worldmonitor"><img src="https://img.shields.io/npm/v/worldmonitor?style=for-the-badge&logo=npm&logoColor=white&label=npm%20i%20worldmonitor&color=CB3837" alt="npm i worldmonitor"></a>&nbsp;
-  <a href="https://www.npmjs.com/package/worldmonitor"><img src="https://img.shields.io/badge/CLI-npx%20worldmonitor-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npx worldmonitor"></a>&nbsp;
-  <a href="https://pypi.org/project/worldmonitor-sdk/"><img src="https://img.shields.io/pypi/v/worldmonitor-sdk?style=for-the-badge&logo=pypi&logoColor=white&label=pip%20install%20worldmonitor-sdk&color=3775A9" alt="pip install worldmonitor-sdk"></a>&nbsp;
-  <a href="https://rubygems.org/gems/worldmonitor"><img src="https://img.shields.io/gem/v/worldmonitor?style=for-the-badge&logo=rubygems&logoColor=white&label=gem%20install%20worldmonitor&color=E9573F" alt="gem install worldmonitor"></a>&nbsp;
-  <a href="https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go"><img src="https://img.shields.io/badge/go%20get-sdk%2Fgo-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="go get github.com/koala73/worldmonitor/sdk/go"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.worldmonitor.app/api/download?platform=windows-exe"><img src="https://img.shields.io/badge/Download-Windows_(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows"></a>&nbsp;
-  <a href="https://www.worldmonitor.app/api/download?platform=macos-arm64"><img src="https://img.shields.io/badge/Download-macOS_Apple_Silicon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS ARM"></a>&nbsp;
-  <a href="https://www.worldmonitor.app/api/download?platform=macos-x64"><img src="https://img.shields.io/badge/Download-macOS_Intel-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel"></a>&nbsp;
-  <a href="https://www.worldmonitor.app/api/download?platform=linux-appimage"><img src="https://img.shields.io/badge/Download-Linux_(.AppImage)-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Download Linux"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.worldmonitor.app/docs/documentation"><strong>Documentation</strong></a> &nbsp;·&nbsp;
-  <a href="https://github.com/koala73/worldmonitor/releases/latest"><strong>Releases</strong></a> &nbsp;·&nbsp;
-  <a href="https://www.worldmonitor.app/docs/contributing"><strong>Contributing</strong></a>
-</p>
-
-![World Monitor Dashboard](docs/images/worldmonitor-7-mar-2026.jpg)
+[![npm](https://img.shields.io/npm/v/worldmonitor?logo=npm&label=npm)](https://www.npmjs.com/package/worldmonitor)
+[![Last commit](https://img.shields.io/github/last-commit/bhargavgrover/advance-project)](https://github.com/bhargavgrover/advance-project/commits/main)
 
 ---
 
-## What It Does
+### 🚀 Live Demos
 
-- **500+ curated news feeds** across 15 categories, AI-synthesized into briefs
-- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 56 map layer types
-- **Cross-stream correlation** — military, economic, disaster, and escalation signal convergence
-- **Country Instability Index (CII)** — server-authoritative CII v8 stress scoring for 31 Tier-1 countries
-- **Finance radar** — 29 stock exchanges, commodities, crypto, and 7-signal market composite
-- **Local AI** — run everything with Ollama, no API keys required
-- **6 site variants** from a single codebase (world, tech, finance, commodity, happy, energy)
-- **Native desktop app** (Tauri 2) for macOS, Windows, and Linux
-- **25 languages** with native-language feeds and RTL support
+<a href="https://www.worldmonitor.app"><strong>Main Dashboard</strong></a> ·
+<a href="https://tech.worldmonitor.app"><strong>Tech Monitor</strong></a> ·
+<a href="https://finance.worldmonitor.app"><strong>Finance Radar</strong></a> ·
+<a href="https://commodity.worldmonitor.app"><strong>Commodity Tracker</strong></a>
 
-For the full feature list, architecture, data sources, and algorithms, see the **[documentation](https://www.worldmonitor.app/docs/documentation)**.
+</div>
 
 ---
 
-## Support Status
+## 📋 Overview
 
-All site variants and desktop binaries are built from a single codebase and ship from the same release process. The table below clarifies maintenance status so you know which surfaces are safe to depend on.
+**Advance Project** (formerly World Monitor) is a cutting-edge, real-time global intelligence dashboard designed to aggregate, analyze, and visualize data from hundreds of sources across the globe. Whether you're tracking geopolitical shifts, monitoring financial markets, or keeping an eye on natural disasters, this platform provides a unified operational picture.
 
-| Surface | Status | Notes |
-|---------|--------|-------|
-| `worldmonitor.app`, `tech.`, `finance.`, `commodity.`, `happy.`, `energy.` | Stable | Public deployments built from this repo, actively maintained |
-| Desktop binaries (Windows / macOS Apple Silicon / macOS Intel / Linux AppImage) | Stable | One Tauri binary that switches variants in-app; current CI release targets are `full` and `tech` |
-
-Issues filed against any of the above are triaged from the same backlog — see the [issues board](https://github.com/koala73/worldmonitor/issues) for currently-open work.
+Built with a modern tech stack and designed for scale, it serves as both a web application and a native desktop app, with programmatic access via APIs, SDKs, and CLI tools.
 
 ---
 
-## Quick Start
+## ✨ Key Features
 
-```bash
-git clone https://github.com/koala73/worldmonitor.git
-cd worldmonitor
-npm install
-npm run dev
-```
-
-Open [localhost:3000](http://localhost:3000) (override the port with `DEV_PORT` in `.env.local`). The app runs with no environment variables.
-
-Feature-specific data sources may require credentials. See `.env.example` for the full list.
-
-For variant-specific development:
-
-```bash
-npm run dev:tech       # tech.worldmonitor.app
-npm run dev:finance    # finance.worldmonitor.app
-npm run dev:commodity  # commodity.worldmonitor.app
-npm run dev:happy      # happy.worldmonitor.app
-npm run dev:energy     # energy.worldmonitor.app
-```
-
-See the **[self-hosting guide](https://www.worldmonitor.app/docs/getting-started)** for deployment options (Vercel, Docker, static).
+- **📰 500+ Curated News Feeds** — Across 15 categories, AI-synthesized into actionable briefs
+- **🌐 Dual Map Engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 56+ map layer types
+- **🔄 Cross-Stream Correlation** — Military, economic, disaster, and escalation signal convergence
+- **📊 Country Instability Index (CII)** — Server-authoritative CII v8 stress scoring for 31 Tier-1 countries
+- **💰 Finance Radar** — 29 stock exchanges, commodities, crypto, and 7-signal market composite
+- **🤖 Local AI Support** — Run everything with Ollama, no API keys required
+- **🎨 6 Site Variants** — From a single codebase (World, Tech, Finance, Commodity, Happy, Energy)
+- **💻 Native Desktop App** — Built with Tauri 2 for macOS, Windows, and Linux
+- **🌍 25 Languages** — With native-language feeds and RTL support
+- **🔌 MCP & REST APIs** — Agent-friendly access with SDKs for Python, Ruby, Go, and Node.js
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
 | **Frontend** | Vanilla TypeScript, Vite, globe.gl + Three.js, deck.gl + MapLibre GL |
 | **Desktop** | Tauri 2 (Rust) with Node.js sidecar |
 | **AI/ML** | Ollama / Groq / OpenRouter, Transformers.js (browser-side) |
-| **API Contracts** | Protocol Buffers (281 protos, 35 services), sebuf HTTP annotations |
-| **Deployment** | Vercel Edge Functions (60+), Railway relay, Tauri, PWA |
+| **API Contracts** | Protocol Buffers (281 protos, 35 services) |
+| **Deployment** | Vercel Edge Functions (60+), Railway relay, Docker |
 | **Caching** | Redis (Upstash), 3-tier cache, CDN, service worker |
-
-Full stack details in the **[architecture docs](https://www.worldmonitor.app/docs/architecture)**.
-
----
-
-## Programmatic Access
-
-World Monitor is built for agents and scripts as well as browsers:
-
-- **MCP server** — `https://worldmonitor.app/mcp` (Streamable HTTP). Public `tools/list`; `tools/call` authenticates with a `X-WorldMonitor-Key` header or OAuth.
-- **REST API** — base `https://api.worldmonitor.app`, described by the [OpenAPI spec](https://worldmonitor.app/openapi.yaml).
-- **CLI** — the official [`worldmonitor`](https://www.npmjs.com/package/worldmonitor) npm package (source in [`cli/`](cli/)):
-
-  ```sh
-  npx worldmonitor tools          # run ad-hoc — list every MCP tool (no key needed)
-  npm install -g worldmonitor     # or install the `worldmonitor` (alias `wm`) command
-  worldmonitor risk IR --api-key wm_xxx
-  ```
-
-- **SDKs** — official zero-dependency client libraries mirroring the CLI: Python [`worldmonitor-sdk`](https://pypi.org/project/worldmonitor-sdk/) (source in [`sdk/python/`](sdk/python/)), Ruby [`worldmonitor`](https://rubygems.org/gems/worldmonitor) ([`sdk/ruby/`](sdk/ruby/)), Go [`github.com/koala73/worldmonitor/sdk/go`](https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go) ([`sdk/go/`](sdk/go/)). Guide: [worldmonitor.app/docs/sdks](https://www.worldmonitor.app/docs/sdks).
-
-Agent discovery files: [`llms.txt`](https://worldmonitor.app/llms.txt) · [agent-skills manifest](https://worldmonitor.app/.well-known/agent-skills/index.json) · [api-catalog](https://worldmonitor.app/.well-known/api-catalog). Get an API key at [worldmonitor.app/pro](https://www.worldmonitor.app/pro).
+| **Database** | Convex (real-time reactive backend) |
 
 ---
 
-## Flight Data
+## 🚀 Quick Start
 
-Flight data provided graciously by [Wingbits](https://wingbits.com?utm_source=worldmonitor&utm_medium=referral&utm_campaign=worldmonitor), the most advanced ADS-B flight data solution.
+### Prerequisites
 
----
+- [Node.js](https://nodejs.org/) (v18+)
+- [npm](https://www.npmjs.com/)
 
-## Data Sources
-
-WorldMonitor aggregates 65+ external providers and APIs across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence — surfaced through 500+ curated feeds and tracked by a freshness monitor covering 35 source groups. See the full [data sources catalog](https://www.worldmonitor.app/docs/data-sources) for providers, feed tiers, and collection methods.
-
----
-
-## Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+### Installation
 
 ```bash
-npm run typecheck        # Type checking
-npm run build:full       # Production build
+# Clone the repository
+git clone https://github.com/bhargavgrover/advance-project.git
+cd advance-project
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser. Override the port with `DEV_PORT` in `.env.local`.
+
+### Variant-Specific Development
+
+```bash
+npm run dev:tech       # Tech variant
+npm run dev:finance    # Finance variant
+npm run dev:commodity  # Commodity variant
+npm run dev:happy      # Happy variant
+npm run dev:energy     # Energy variant
 ```
 
 ---
 
-## License
+## 📦 Programmatic Access
 
-**AGPL-3.0-only** for the source code. Commercial use is permitted under the AGPL when you comply with its copyleft and source-availability terms.
+Advance Project is built for agents and scripts as well as browsers:
+
+- **MCP Server** — `https://worldmonitor.app/mcp` (Streamable HTTP)
+- **REST API** — Base `https://api.worldmonitor.app`
+- **CLI** — `npx worldmonitor` or `npm install -g worldmonitor`
+- **SDKs** — Python, Ruby, Go (official zero-dependency client libraries)
+
+```bash
+# Example: Get risk assessment for a country
+npx worldmonitor risk IR --api-key wm_xxx
+```
+
+---
+
+## 🐳 Docker Deployment
+
+```bash
+docker-compose up -d
+```
+
+See the [self-hosting guide](https://www.worldmonitor.app/docs/getting-started) for detailed deployment options.
+
+---
+
+## 📁 Project Structure
+
+```
+advance-project/
+├── api/              # Vercel Edge Functions (60+ API endpoints)
+├── src/              # Frontend source code
+├── server/           # Server-side code
+├── cli/              # CLI tool source
+├── sdk/              # Client SDKs (Python, Ruby, Go)
+├── convex/           # Convex backend functions
+├── src-tauri/        # Tauri desktop app (Rust)
+├── shared/           # Shared utilities and types
+├── docs/             # Documentation
+├── e2e/              # Playwright end-to-end tests
+├── tests/            # Data validation tests
+├── deploy/           # Deployment configurations
+└── docker/           # Docker setup
+```
+
+---
+
+## 🧪 Testing
+
+```bash
+# Type checking
+npm run typecheck
+
+# Run data tests
+npm run test:data
+
+# Run end-to-end tests
+npm run test:e2e
+
+# Production build
+npm run build
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+```bash
+# Before submitting a PR
+npm run typecheck
+npm run build:full
+```
+
+---
+
+## 📄 License
+
+**AGPL-3.0-only** — This project is licensed under the GNU Affero General Public License v3.0. See [LICENSE](./LICENSE) for details.
 
 | Use Case | Allowed? |
 |----------|----------|
-| Personal / research / educational | Yes, under AGPL-3.0-only |
-| Self-hosted instance | Yes, under AGPL-3.0-only |
-| Fork and modify | Yes, share source under AGPL-3.0-only when required |
-| Commercial use / SaaS | Yes, under AGPL-3.0-only when you comply with AGPL obligations |
-| Private-source proprietary use or official branding rights | Separate commercial or trademark permission needed |
-
-See [LICENSE](LICENSE) for the full code license and [docs/license.mdx](docs/license.mdx) for a plain-language summary. Commercial licensing is available as an alternative option for teams that need non-AGPL terms.
-
-Copyright (C) 2024-2026 Elie Habib. All rights reserved.
+| Personal / Research / Educational | ✅ Yes, under AGPL-3.0 |
+| Self-hosted Instance | ✅ Yes, under AGPL-3.0 |
+| Fork and Modify | ✅ Yes, share source under AGPL-3.0 |
+| Commercial Use / SaaS | ✅ Yes, under AGPL-3.0 |
+| Private-source Proprietary Use | ❌ Requires separate license |
 
 ---
 
-## Author
+## 👤 Author
 
-**Elie Habib** — [GitHub](https://github.com/koala73)
+**Bhargav Grover**
 
-## Contributors
-
-<a href="https://github.com/koala73/worldmonitor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=koala73/worldmonitor" />
+<a href="https://github.com/bhargavgrover">
+  <img src="https://img.shields.io/badge/GitHub-bhargavgrover-181717?style=for-the-badge&logo=github" alt="GitHub">
 </a>
-
-## Security Acknowledgments
-
-We thank the following researchers for responsibly disclosing security issues:
-
-- **Cody Richard** — Disclosed three security findings covering IPC command exposure, renderer-to-sidecar trust boundary analysis, and fetch patch credential injection architecture (2026)
-
-See our [Security Policy](./SECURITY.md) for responsible disclosure guidelines.
 
 ---
 
-<p align="center">
-  <a href="https://www.worldmonitor.app">worldmonitor.app</a> &nbsp;·&nbsp;
-  <a href="https://www.worldmonitor.app/docs/documentation">docs.worldmonitor.app</a> &nbsp;·&nbsp;
-  <a href="https://finance.worldmonitor.app">finance.worldmonitor.app</a> &nbsp;·&nbsp;
-  <a href="https://commodity.worldmonitor.app">commodity.worldmonitor.app</a>
-</p>
+## 🙏 Acknowledgments
 
-## Star History
+- Original project by [Elie Habib](https://github.com/koala73)
+- [Wingbits](https://wingbits.com) for flight data
+- All contributors and open-source maintainers
 
-<a href="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date&theme=dark" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date" />
- </picture>
-</a>
+---
+
+<div align="center">
+  <p>
+    <a href="https://github.com/bhargavgrover/advance-project/issues">Report Bug</a> ·
+    <a href="https://github.com/bhargavgrover/advance-project/issues">Request Feature</a> ·
+    <a href="https://github.com/bhargavgrover/advance-project/discussions">Discussions</a>
+  </p>
+  <p>⭐ Star this repo if you find it useful! ⭐</p>
+</div>
+
